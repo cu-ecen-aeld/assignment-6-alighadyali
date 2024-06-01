@@ -12,7 +12,7 @@ LICENSE = "Unknown"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
 SRC_URI = "git://git@github.com/cu-ecen-aeld/assignment-7-alighadyali.git;protocol=ssh;branch=master \
-    file://S96misc_driver"
+    file://S97scull_driver"
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
