@@ -9,9 +9,10 @@
 # represented as "Unknown" below, you will need to check them yourself:
 #   LICENSE
 LICENSE = "Unknown"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=f098732a73b5f6f3430472f5b094ffdb"
+LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
-SRC_URI = "git://git@github.com/cu-ecen-aeld/assignment-7-alighadyali.git;protocol=ssh;branch=master"
+SRC_URI = "git://git@github.com/cu-ecen-aeld/assignment-7-alighadyali.git;protocol=ssh;branch=master \
+    file://S96misc_driver"
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
